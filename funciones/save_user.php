@@ -15,7 +15,7 @@ $stmt->execute();
 $stmt->store_result();
 
 if ($stmt->num_rows > 0) {
-    echo "El correo ya está registrado. <a href='register.php'>Volver</a>";
+    echo "El correo ya está registrado. <a href='../index.php'>Volver</a>";
     exit;
 }
 $stmt->close();
@@ -25,7 +25,7 @@ $stmt = $conn->prepare("INSERT INTO usuarios (cedula, nombres, apellidos, fecha_
 $stmt->bind_param("ssssss", $cedula, $nombres, $apellidos, $fecha_nacimiento, $email, $password);
 
 if ($stmt->execute()) {
-    echo "¡Usuario registrado con éxito! <a href='index.php'>Iniciar sesión</a>";
+    echo "¡Usuario registrado con éxito! <a href='../index.php'>Iniciar sesión</a>";
 } else {
     echo "Error: " . $stmt->error;
 }

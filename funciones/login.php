@@ -16,10 +16,10 @@ if ($user = $result->fetch_assoc()) {
         header("Location: welcome.php");
         exit;
     } else {
-        echo "Contraseña incorrecta. <a href='index.php'>Intentar de nuevo</a>";
+        echo "Contraseña incorrecta. <a href='../index.php'>Intentar de nuevo</a>";
     }
 } else {
-    echo "Correo no registrado. <a href='index.php'>Intentar de nuevo</a>";
+    echo "Correo no registrado. <a href='../index.php'>Intentar de nuevo</a>";
 }
 
 $stmt->close();
