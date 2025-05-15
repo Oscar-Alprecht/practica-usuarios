@@ -1,0 +1,18 @@
+[
+    {
+        "cedula": "0705042679",
+        "nombres": "Oscar Alejandro",
+        "apellidos": "Alprecht Nieto",
+        "fecha_nacimiento": "2002-04-29",
+        "email": "oscaralprecht@gmail.com",
+        "password": "$2y$10$nwQNMXFGRDrsfUoRNqqsM.\/4hS05q3TQSRV.IaVZJgz3AvbvAtLMK"
+    },
+    {
+        "cedula": "0750034670",
+        "nombres": "Emily Lizbeth",
+        "apellidos": "Zambrano Ortega",
+        "fecha_nacimiento": "2006-08-12",
+        "email": "emi@gmail.com",
+        "password": "$2y$10$EQBmZCbYHiGm0iRjk7mMEOZ5Yyl0n5C4Q\/N4JO9z\/hc0uTPzk3dg2"
+    }
+]
