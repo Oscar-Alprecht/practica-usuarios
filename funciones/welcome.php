@@ -23,7 +23,7 @@ $user = $_SESSION['user'];
         <li><strong>Fecha de nacimiento:</strong> <?php echo htmlspecialchars($user['fecha_nacimiento']); ?></li>
         <li><strong>Email:</strong> <?php echo htmlspecialchars($user['email']); ?></li>
 
-        <p><a href="index.php">Cerrar sesión</a></p>
+        <p><a href="../index.php">Cerrar sesión</a></p>
     </ul>
 
     
